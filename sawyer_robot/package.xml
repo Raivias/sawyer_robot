@@ -20,7 +20,7 @@
   </url>
   <author>Rethink Robotics Inc.</author>
 
-  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>ament_cmake</buildtool_depend>
 
   <exec_depend>intera_sdk</exec_depend>
   <exec_depend>intera_common</exec_depend>

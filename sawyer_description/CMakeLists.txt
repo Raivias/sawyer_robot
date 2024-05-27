@@ -9,8 +9,7 @@ find_package(rosidl_default_generators REQUIRED)
 ament_package()
 
 
-# TODO need to insall xacros into shared directory
 foreach(dir config launch meshes params urdf)
    install(DIRECTORY ${dir}/
-      DESTINATION share/${PROJECT_NAME})
+      DESTINATION share/${PROJECT_NAME}/${dir})
 endforeach(dir)
